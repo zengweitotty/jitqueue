@@ -1,0 +1,1 @@
+cmd_/work/driver_program/jitqueue/jitqueue.ko := ld -r -m elf_i386 -T /usr/src/linux-2.6.38/scripts/module-common.lds --build-id  -o /work/driver_program/jitqueue/jitqueue.ko /work/driver_program/jitqueue/jitqueue.o /work/driver_program/jitqueue/jitqueue.mod.o
